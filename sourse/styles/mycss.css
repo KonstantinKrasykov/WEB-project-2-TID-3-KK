@@ -1,0 +1,140 @@
+
+.nav-link{
+    color: rgb(143, 175, 184);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(190, 223, 254);
+    text-shadow: 0px 0px 6px rgba(190, 223, 254, 0.442);
+
+}
+.navbar-brand>div{
+    width: 65px;
+}
+.navbar-brand>div>img{
+    width: 100%;
+}
+.navbar-toggler{
+    background-color: rgb(75, 97, 118);
+}
+.navbar{
+    --bs-navbar-color: rgb(143, 175, 184);
+}
+/* карточки товара */
+.card{
+    --bs-card-bg:rgb(75, 97, 118);
+    --bs-card-border-radius: 1.5rem;
+    --bs-card-inner-border-radius: 1.5rem;
+    box-shadow: 4px 4px 11px 0px #262626;
+    --bs-card-border-width: 0rem;
+    
+    
+}
+.card-body{
+    color: rgb(218, 199, 171);
+}
+.btn-primary {
+    --bs-btn-bg:rgb(218, 175, 154);
+    --bs-btn-border-color:rgb(218, 175, 154);
+    color:rgb(75, 97, 118);
+    --bs-btn-hover-bg:rgb(45, 123, 69);
+    --bs-btn-hover-color:rgb(236, 199, 180);
+    --bs-btn-hover-border-color:rgb(45, 123, 69);
+    
+}
+.btn{
+    font-weight:700 ;
+    --bs-btn-border-radius: 0.68rem;
+}
+/* задний фон */
+body{
+    height: max-content;
+    background: linear-gradient(180deg, #4b6176 0%, #B6996E 100%);
+    background-size: 100vh; 
+}
+/* Боковая панель */
+.sideBar{
+    color: azure;
+    background-color: rgb(157, 152, 137);
+}
+.rightBar{
+    height:max-content;
+    background-color: rgb(157, 152, 137);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem; 
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    box-shadow: 4px 4px 11px 0px #262626;
+}    
+.link{
+    color: #5f433b;
+}
+/* Карусель */
+.carousel-inner{
+    border-radius: 1.4rem;
+    box-shadow: 4px 4px 11px 0px #262626;
+}
+.carousel-caption{
+
+    text-shadow: 0px 1.5px 4px #000000;
+}
+/* Горячая линия */
+.text{
+    color: azure;
+    text-shadow: 0px 0px 6px rgba(240, 255, 255, 0.419);
+    margin-left: 2%;
+    margin-top: 1.5%;
+    
+}
+.callAnim{
+    animation: call 17s cubic-bezier(0.37, 0, 0.63, 1) 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+/* Подвал */
+.footerText{
+    color:rgb(143, 175, 184);
+    text-shadow: 0px 0px 6px rgba(190, 223, 254, 0.192);
+
+}
+footer{
+    margin-top: 2.5%;
+    background-color: rgb(33, 37, 41);
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 0px 9px rgba(143, 175, 184, 0.308));
+}

@@ -1,0 +1,24 @@
+.videoBG{
+    height: 70vh;
+    width:100%;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoBG video{
+    height: 70vh;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.videoText{
+    color:azure;
+    z-index: 2;
+    text-shadow: 0px 0px 8px rgb(240, 255, 255);
+    font-family: "Zen Tokyo Zoo", system-ui;
+}
